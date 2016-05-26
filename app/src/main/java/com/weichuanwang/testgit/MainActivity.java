@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private Handler handler = new Handler(){
-        public void handleMessage(Message msg){
+    private Handler handler = new Handler() {
+        public void handleMessage(Message msg) {
             new BuildConfig();
-	TextView one=new TextView(this);
+            TextView one = new TextView(MainActivity.this);
 
         }
     };

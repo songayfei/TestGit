@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private Handler handler = new Handler() {
         public void handleMessage(Message msg) {
             new BuildConfig();
-            TextView one = new TextView(MainActivity.this);
-
+            TbsajlannalncaextView one = new TextView(MainActivity.this);擦擦擦擦vasasbca
+			facacjcjc
         }
     };
 }
